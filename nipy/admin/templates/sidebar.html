@@ -1,0 +1,53 @@
+            <!-- Sidebar Menu Items - These collapse to the responsive navigation menu on small screens -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav side-nav">
+                    <li>
+                        <a href="{{url_for('admin.index')}}"><i class="fa fa-fw fa-dashboard"></i> Dashboard</a>
+                    </li>
+                    <li>
+                        <a href="javascript:;" data-toggle="collapse" data-target="#categories"><i class="glyphicon glyphicon-th"></i> Categories <i class="fa fa-fw fa-caret-down"></i></a>
+                        <ul id="categories" class="collapse">
+                            <li>
+                                <a href="{{url_for('admin.categories')}}">All Categories</a>
+                            </li>
+                            <li>
+                                <a href="{{url_for('admin.categories_action', action = 'add')}}">Add New Category</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="javascript:;" data-toggle="collapse" data-target="#posts"><i class="glyphicon glyphicon-pencil"></i> Posts <i class="fa fa-fw fa-caret-down"></i></a>
+                        <ul id="posts" class="collapse">
+                            <li>
+                                <a href="{{url_for('admin.posts')}}">All Posts</a>
+                            </li>
+                            <li>
+                                <a href="{{url_for('admin.posts_action', action = 'add')}}">Add New Post</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="javascript:;" data-toggle="collapse" data-target="#pages"><i class="glyphicon glyphicon-book"></i> Pages <i class="fa fa-fw fa-caret-down"></i></a>
+                        <ul id="pages" class="collapse">
+                            <li>
+                                <a href="{{url_for('admin.pages')}}">All Pages</a>
+                            </li>
+                            <li>
+                                <a href="{{url_for('admin.pages_action', action = 'add')}}">Add New Page</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="javascript:;" data-toggle="collapse" data-target="#users"><i class="glyphicon glyphicon-user"></i> Users <i class="fa fa-fw fa-caret-down"></i></a>
+                        <ul id="users" class="collapse">
+                            <li>
+                                <a href="{{url_for('admin.users')}}">All Users</a>
+                            </li>
+                            <li>
+                                <a href="{{url_for('admin.users_action', action = 'add')}}">Add New User</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                </ul>
+            </div>
