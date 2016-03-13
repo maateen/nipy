@@ -11,18 +11,18 @@ WTF_CSRF_ENABLED = False
 DEBUG = True
 
 # Flask-Mail Configs
-MAIL_SERVER = 'server150.web-hosting.com'
+MAIL_SERVER = 'Your mail server address'
 MAIL_PORT = 465
 MAIL_USE_SSL = True
-MAIL_USERNAME = 'test@ugcoder.com'
-MAIL_PASSWORD = 'tT1^#b*DbLPS'
-MAIL_DEFAULT_SENDER = 'test@ugcoder.com'
+MAIL_USERNAME = 'Your Email Username'
+MAIL_PASSWORD = 'A Strong Password'
+MAIL_DEFAULT_SENDER = 'The Email Address from where you like to send mail by default'
 
 # Security Core Configuration
 SECURITY_URL_PREFIX = '/account'
 SECURITY_PASSWORD_HASH = 'bcrypt'
 SECURITY_PASSWORD_SALT = '$2a$16$PnnIgfMwkOjGX4SkHqSOPO'
-SECURITY_EMAIL_SENDER = 'test@ugcoder.com'
+SECURITY_EMAIL_SENDER = 'The Email Address from where you like to send security mail by default'
 
 # Security URLs and Views
 SECURITY_POST_LOGIN_VIEW = '/admin'
