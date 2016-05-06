@@ -1,0 +1,6 @@
+{
+  "name": "Nipy",
+  "tagline": "Nipy is a Python3 blog engine based on Flask micro framework.",
+  "body": "# Nipy\r\nNipy is a Python3 blog engine based on Flask micro framework.\r\n\r\nI was thinking to make a full-functional Blog engine like Wordpress but unfortunately I am shutting down this project due to some personal issues. If you feel happy to take this project to the next level, you're most welcome.\r\n\r\nI lost the main project due to a Hard-Drive lost. I have gained this one from my bitbucket, has a lots of bugs. Please fix them, I have fixed them almost all of them but lost due to a unwanted HDD fail.\r\n\r\nAlso, in this project, I have done less comment, actually trying to make my code readable even without comment. Don't know I have passed or failed.\r\n\r\nHave a nice time buddy!\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
